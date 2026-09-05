@@ -7,9 +7,9 @@ $uri = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
 
 
 if ($login == "admin" && $mdp =="azerty"){
-    header("Location: http://$host$uri/index.html");
+    header("Location: http://$host$uri/login.html");
 } else {
 
-    header("Location: http://$host$uri/profil.html");
+    header("Location: http://$host$uri/index.html");
 }
 ?>
